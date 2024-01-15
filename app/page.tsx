@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 
 import Link from 'next/link'
@@ -7,7 +9,7 @@ import PackStore from './components/packstore'
 import StoreHeader from './components/storeheader'
 import faSportsRoundLogo from '../public/images/fasports-round-logo.svg';
 
-export default function Home( {} ) {
+export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gray-800" style={{zIndex: -1}}>
       <Header></Header>
